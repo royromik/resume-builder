@@ -1,0 +1,247 @@
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'), url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: local('Poppins-Bold'), url('./fonts/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: local('Poppins-Light'), url('./fonts/Poppins-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: local('Poppins-Medium'), url('./fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+
+* {
+  max-width: 794px;
+  margin: auto;
+  font-family: "Poppins-Regular", sans-serif;
+}
+p,div,li{
+  font-family: "Poppins-Regular", sans-serif;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.resume-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.mt-20{
+  margin-top: 20px !important;
+}
+
+.mb-cs{
+  margin-bottom:150px;
+}
+
+#header {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  .bg-red{
+    background-color: #B43017;
+    height: 479px;
+    width: 800px;
+    position: absolute;
+    top: -416px;
+    right: -94px;
+    transform: rotate(18deg);
+    
+  } 
+  .bg-grey{
+    background-color: #BFBFBF;
+    height: 450px;
+    width: 800px;
+    position: absolute;
+    top: -436px;
+    left: -101px;
+    transform: rotate(160deg);
+  }
+  .img-container{
+    position: absolute;
+    top: 15px;
+    left: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    img{
+      height: 115px;
+      width: 115px;
+      border-radius: 100px;
+    }
+  }
+}
+
+.flex-container{
+  .left-panel-container{
+    margin:0;
+    background-color: #070000;
+    padding:25px;
+    box-sizing: border-box;
+    color: white;
+    padding-top:154px;
+    .personal-info{
+      margin-bottom:8px;
+    }
+    h3.left-panel-heading{
+      font-size:15px;
+      margin-bottom:16px;
+    }
+    h4.left-panel-subheading{
+      font-size: 12px;
+      margin-bottom:1px;
+    }
+    .personal-info-detail{
+      font-size: 10px;
+      font-family: "Poppins-Light";
+    }
+    .progress-container {
+      width: 100%;
+      height: 2px;
+      background-color: #423f3f;
+      overflow: hidden;
+      position: relative;
+      margin-bottom:5px;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background-color: white;
+      line-height: 30px;
+      color: white;
+      position: absolute;
+      left: 0;
+    }
+
+    .skills-section,.languages-section{
+      p{
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+
+  .right-panel-container{
+    padding:15px;
+    padding-top:75px;
+    padding-right:65px;
+    margin-bottom:1000px;
+    h3.profile-name{
+      font-family: "Poppins-Bold";
+      font-size: 27px;
+    }
+    p,li{
+      color:#423f3f;
+      font-size:11px;
+    }
+
+    .heading-flex{
+      display: flex;
+      justify-content: space-between;
+      h4{
+        margin:0;
+      }
+    }
+
+    .right-panel-heading{
+      font-size: 15px;
+      font-family: "Poppins-Regular";
+      border-bottom:solid 3px #B43017;
+      margin-bottom:10px;
+    }
+    p{
+      margin-bottom:6px;
+    }
+    h4{
+      font-size:12px;
+      font-family: "Poppins-Medium";
+      font-weight: 100;
+    }
+    h4.role{
+      font-weight: 100;
+      border-bottom: solid 1px #a38e8e;
+      padding-bottom:6px;
+      margin-bottom:6px;
+      font-size:16px;
+    }
+    .emplyment-section{
+      ul{
+        padding-top:10px;
+        margin-bottom:16px;
+      }
+
+      .custom-mg{
+        margin-bottom:90px;
+      }
+    }
+
+    .education-section{
+      margin-bottom:20px;
+      h4{
+        font-weight: 100;
+      }
+    }
+    .certification-section{
+      h4{
+        margin-bottom:10px;
+      }
+      .certificate{
+        
+        h5{
+          font-size:11px;
+          margin:0;
+          padding-right: 5px;
+          white-space: nowrap;
+          margin-bottom: 5px;
+        }
+        p{
+          margin:0;
+        }
+        margin-bottom:10px;
+      }
+    }
+    .footer{
+      margin-top:40px;
+      border-top:solid 1px #a38e8e;
+      padding-top:20px;
+      p{
+        margin-bottom:0;
+      }
+      .d-flex{
+        justify-content: space-between;
+        align-items: end;
+        p{
+          margin: 0;
+        }
+        .d-grid{
+          margin: 0;
+          text-align: center;
+        }
+      }
+      img{
+        height: 35px;
+        width:115px;
+      }
+    }
+  }
+}
+
+#title {
+  margin-left: 3%;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
